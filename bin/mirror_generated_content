@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir -p /mirror/generated
+
+rsync -av --del aleph.gutenberg.org::gutenberg-epub /mirror/generated

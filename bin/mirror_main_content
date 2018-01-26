@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir -p /mirror/main
+
+rsync -av --del aleph.gutenberg.org::gutenberg /mirror/main
